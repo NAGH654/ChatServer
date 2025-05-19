@@ -15,7 +15,7 @@ namespace ChatServer
 		{
 			TcpListener server = new TcpListener(IPAddress.Any, 5000);
 			server.Start();
-			Console.WriteLine("Server started.......");
+			Console.WriteLine("Server started...");
 			while (true)
 			{
 				TcpClient client = server.AcceptTcpClient();
