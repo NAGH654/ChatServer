@@ -71,8 +71,85 @@ namespace ChatClient
             {
                 while ((message = reader.ReadLine()) != null)
                 {
+                    // Kiểm tra nếu là file (có 4 phần: sender|[file]filename|base64|timestamp)
                     var parts = message.Split('|');
-                    if (parts.Length == 3)
+                    if (parts.Length == 4 && parts[1].StartsWith("[file]"))
+                    {
+                        string sender = parts[0];
+                        string fileName = parts[1].Substring(6);
+                        string base64 = parts[2];
+                        string time = parts[3];
+
+                        Dispatcher.Invoke(() =>
+                        {
+                            string displayName = sender == username ? "Me" : sender;
+                            Button saveBtn = new Button
+                            {
+                                Content = $"Lưu {fileName}",
+                                Tag = base64,
+                                Margin = new Thickness(0, 2, 0, 2)
+                            };
+                            saveBtn.Click += (s, e) =>
+                            {
+                                var sfd = new SaveFileDialog { FileName = fileName };
+                                if (sfd.ShowDialog() == true)
+                                {
+                                    File.WriteAllBytes(sfd.FileName, Convert.FromBase64String(base64));
+                                    MessageBox.Show("Đã lưu file!");
+                                }
+                            };
+                            //xử lí video
+                            if (fileName.EndsWith(".mp4") || fileName.EndsWith(".mp3") || fileName.EndsWith(".wav") ||
+                                fileName.EndsWith(".avi") || fileName.EndsWith(".mov") || fileName.EndsWith(".wmv"))
+                            {
+                                string tempPath = System.IO.Path.GetTempFileName() + System.IO.Path.GetExtension(fileName);
+                                File.WriteAllBytes(tempPath, Convert.FromBase64String(base64));
+                                var playButton = new Button
+                                {
+                                    Content = "▶ Xem video",
+                                    Tag = tempPath,
+                                    Margin = new Thickness(0, 2, 0, 2)
+                                };
+
+                                MediaElement media = new MediaElement
+                                {
+                                    Width = 200,
+                                    Height = 120,
+                                    LoadedBehavior = MediaState.Manual,
+                                    UnloadedBehavior = MediaState.Manual,
+                                    Visibility = Visibility.Collapsed
+                                };
+
+                                playButton.Click += (s, e) =>
+                                {
+                                    if (media.Visibility == Visibility.Collapsed)
+                                    {
+                                        media.Source = new Uri(tempPath);
+                                        media.Visibility = Visibility.Visible;
+                                        media.Play();
+                                        playButton.Content = "⏸ Dừng video";
+                                    }
+                                    else
+                                    {
+                                        media.Pause();
+                                        media.Visibility = Visibility.Collapsed;
+                                        playButton.Content = "▶ Xem video";
+                                    }
+                                };
+
+                                ChatBox.Items.Add($"{displayName} [{time}]: {fileName}");
+                                ChatBox.Items.Add(playButton);
+                                ChatBox.Items.Add(media);
+                            }
+                            else
+                            {
+                                ChatBox.Items.Add($"{displayName} [{time}]: {fileName}");
+                                ChatBox.Items.Add(saveBtn);
+                            }
+                        });
+                    }
+                    // Xử lý ảnh như cũ
+                    else if (parts.Length == 3)
                     {
                         string sender = parts[0];
                         string content = parts[1];
@@ -165,6 +242,33 @@ namespace ChatClient
                 catch
                 {
                     MessageBox.Show("Không thể gửi ảnh này.");
+                }
+            }
+        }
+
+        private void SendFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (writer == null) return;
+            var dialog = new OpenFileDialog
+            {
+                Filter = "All Files|*.*",
+                Title = "Chọn file để gửi"
+            };
+            if (dialog.ShowDialog() == true)
+            {
+                try
+                {
+                    byte[] fileBytes = File.ReadAllBytes(dialog.FileName);
+                    string base64File = Convert.ToBase64String(fileBytes);
+                    string fileName = System.IO.Path.GetFileName(dialog.FileName);
+                    string timestamp = DateTime.Now.ToString("HH:mm:ss");
+                    string fullMessage = $"{username}|[file]{fileName}|{base64File}|{timestamp}";
+                    writer.WriteLine(fullMessage);
+                    ChatBox.Items.Add($"Me [{timestamp}]: [Đã gửi file] {fileName}");
+                }
+                catch
+                {
+                    MessageBox.Show("Không thể gửi file này.");
                 }
             }
         }

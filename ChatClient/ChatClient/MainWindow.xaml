@@ -17,6 +17,7 @@
             <TextBox x:Name="MessageInput" Width="200" Height="30" Margin="0,0,5,0"/>
             <Button Content="Send" Width="50" Height="30" Margin="0,0,5,0" Click="SendButton_Click"/>
             <Button Width="40" Height="30" Click="SendImage_Click" ToolTip="Send Image" FontSize="18" Content="📷"/>
+            <Button Width="40" Height="30" Click="SendFile_Click" ToolTip="Send File" FontSize="18" Content="📁"/>
         </StackPanel>
 
         <!-- Giữa: Khung chat -->
