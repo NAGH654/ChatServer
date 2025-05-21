@@ -12,3 +12,18 @@ D:\Back-end\Chat-Server\ChatServer\ChatServer\obj\Debug\net8.0\refint\ChatServer
 D:\Back-end\Chat-Server\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.pdb
 D:\Back-end\Chat-Server\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.genruntimeconfig.cache
 D:\Back-end\Chat-Server\ChatServer\ChatServer\obj\Debug\net8.0\ref\ChatServer.dll
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.exe
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.deps.json
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.runtimeconfig.json
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.dll
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.pdb
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.AssemblyInfoInputs.cache
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.AssemblyInfo.cs
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.sourcelink.json
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.dll
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\refint\ChatServer.dll
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.pdb
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.genruntimeconfig.cache
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatServer\ChatServer\obj\Debug\net8.0\ref\ChatServer.dll

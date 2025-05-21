@@ -17,3 +17,23 @@ D:\Back-end\Chat-Server\ChatClient\ChatClient\obj\Debug\net8.0-windows\refint\Ch
 D:\Back-end\Chat-Server\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.pdb
 D:\Back-end\Chat-Server\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.genruntimeconfig.cache
 D:\Back-end\Chat-Server\ChatClient\ChatClient\obj\Debug\net8.0-windows\ref\ChatClient.dll
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient_MarkupCompile.cache
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.g.resources
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.AssemblyInfoInputs.cache
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.AssemblyInfo.cs
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.sourcelink.json
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.dll
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\refint\ChatClient.dll
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.pdb
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.exe
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.deps.json
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.runtimeconfig.json
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.dll
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.pdb
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.genruntimeconfig.cache
+C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ref\ChatClient.dll
