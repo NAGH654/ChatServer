@@ -15,6 +15,18 @@ namespace ChatServer
 		{
 			TcpListener server = new TcpListener(IPAddress.Any, 5000);
 			server.Start();
+
+			// Display all local IPv4 addresses
+			string hostName = Dns.GetHostName();
+			IPAddress[] addresses = Dns.GetHostAddresses(hostName);
+			foreach (var addr in addresses)
+			{
+				if (addr.AddressFamily == AddressFamily.InterNetwork)
+				{
+					Console.WriteLine($"Server IP Address: {addr}");
+				}
+			}
+
 			Console.WriteLine("Server started.....");
 			while (true)
 			{
