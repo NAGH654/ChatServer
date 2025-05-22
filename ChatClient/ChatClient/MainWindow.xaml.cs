@@ -224,7 +224,7 @@ namespace ChatClient
             MessageInput.Clear();
         }
 
-        private void SendImage_Click(object sender, RoutedEventArgs e)
+        private async void SendImage_Click(object sender, RoutedEventArgs e)
         {
             if (writer == null) return;
             var dialog = new OpenFileDialog { Filter = "Image Files (*.png;*.jpg)|*.png;*.jpg" };
@@ -232,7 +232,7 @@ namespace ChatClient
             {
                 try
                 {
-                    byte[] imgBytes = File.ReadAllBytes(dialog.FileName);
+                    byte[] imgBytes = await File.ReadAllBytesAsync(dialog.FileName);
                     string base64Img = Convert.ToBase64String(imgBytes);
                     string timestamp = DateTime.Now.ToString("HH:mm:ss");
                     string fullMessage = $"{username}|[image]{base64Img}|{timestamp}";
@@ -246,7 +246,7 @@ namespace ChatClient
             }
         }
 
-        private void SendFile_Click(object sender, RoutedEventArgs e)
+        private async void SendFile_Click(object sender, RoutedEventArgs e)
         {
             if (writer == null) return;
             var dialog = new OpenFileDialog
@@ -258,7 +258,7 @@ namespace ChatClient
             {
                 try
                 {
-                    byte[] fileBytes = File.ReadAllBytes(dialog.FileName);
+                    byte[] fileBytes = await File.ReadAllBytesAsync(dialog.FileName);
                     string base64File = Convert.ToBase64String(fileBytes);
                     string fileName = System.IO.Path.GetFileName(dialog.FileName);
                     string timestamp = DateTime.Now.ToString("HH:mm:ss");
@@ -272,5 +272,6 @@ namespace ChatClient
                 }
             }
         }
+
     }
 }

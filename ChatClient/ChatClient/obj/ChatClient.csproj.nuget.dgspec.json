@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\networking\\ChatServer\\ChatClient\\ChatClient\\ChatClient.csproj": {}
+    "D:\\Projects\\chat-client\\ChatServer\\ChatClient\\ChatClient\\ChatClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\networking\\ChatServer\\ChatClient\\ChatClient\\ChatClient.csproj": {
+    "D:\\Projects\\chat-client\\ChatServer\\ChatClient\\ChatClient\\ChatClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\networking\\ChatServer\\ChatClient\\ChatClient\\ChatClient.csproj",
+        "projectUniqueName": "D:\\Projects\\chat-client\\ChatServer\\ChatClient\\ChatClient\\ChatClient.csproj",
         "projectName": "ChatClient",
-        "projectPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\networking\\ChatServer\\ChatClient\\ChatClient\\ChatClient.csproj",
-        "packagesPath": "C:\\Users\\THANH AN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\networking\\ChatServer\\ChatClient\\ChatClient\\obj\\",
+        "projectPath": "D:\\Projects\\chat-client\\ChatServer\\ChatClient\\ChatClient\\ChatClient.csproj",
+        "packagesPath": "C:\\Users\\Thais Mai\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\chat-client\\ChatServer\\ChatClient\\ChatClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\THANH AN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thais Mai\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

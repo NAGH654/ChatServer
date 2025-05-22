@@ -37,3 +37,23 @@ C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClien
 C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.pdb
 C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.genruntimeconfig.cache
 C:\Users\THANH AN\OneDrive\Máy tính\networking\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ref\ChatClient.dll
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.exe
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.deps.json
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.runtimeconfig.json
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.dll
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.pdb
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\App.g.cs
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient_MarkupCompile.cache
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.g.resources
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.AssemblyInfoInputs.cache
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.AssemblyInfo.cs
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.csproj.CoreCompileInputs.cache
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.sourcelink.json
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.dll
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\refint\ChatClient.dll
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.pdb
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.genruntimeconfig.cache
+D:\Projects\chat-client\ChatServer\ChatClient\ChatClient\obj\Debug\net8.0-windows\ref\ChatClient.dll
